@@ -10,3 +10,4 @@ RUN python -m pip install jupyterlab
 RUN mkdir -p /notebooks/springboard
 WORKDIR /notebooks/springboard
 COPY . .
+RUN rm Dockerfile
